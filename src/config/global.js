@@ -1,17 +1,18 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre del componente formativo',
-    descripcionCurso: 'Descripción corta del componente',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+    componenteFormativo: 'Procesos de corte y confección',
+    descripcionCurso:
+      'Para confeccionar prendas de vestir es importante tener en cuenta los diferentes procesos de detalles y características particulares de cada prenda, en este componente se describen y especifican cada uno de los procedimientos para realizar el corte y armado de falda, blusa, camisa y pantalón de manera detallada y didáctica.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
     ],
   },
@@ -30,221 +31,178 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Corte y confección de la falda ',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Pinzas',
+            hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Filetear piezas ',
+            hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Cierre ',
+            hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Audio',
-            hash: 'audio',
+            titulo: 'Costados ',
+            hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo: 'Pretina ',
+            hash: 't_1_5',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Dialogo ingles',
-            hash: 'actividad_dialogo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.19',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Ruedo ',
+            hash: 't_1_6',
           },
         ],
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Corte y confección de la blusa',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Corte de la blusa',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Pasos para la confección de la blusa',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Corte y confección de la camisa',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Preparación de las piezas',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
+            numero: '3.1.1',
+            titulo: 'Preparación del cuello',
+            hash: 't_3_1_1',
+          },
+          {
+            numero: '3.1.2',
+            titulo: 'Preparación de la perilla',
+            hash: 't_3_1_2',
+          },
+          {
+            numero: '3.1.3',
+            titulo: 'Preparación y ensamble de bolsillo',
+            hash: 't_3_1_3',
+          },
+          {
+            numero: '3.1.4',
+            titulo: 'Delanteros y espaldar',
+            hash: 't_3_1_4',
+          },
+          {
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Ensamble',
             hash: 't_3_2',
           },
           {
-            icono: 'far fa-file-alt',
+            numero: '3.2.1',
+            titulo: 'Ensamble de la espalda',
+            hash: 't_3_2_1',
+          },
+          {
+            numero: '3.2.2',
+            titulo: 'Ensamble de las mangas',
+            hash: 't_3_2_3',
+          },
+          {
+            numero: '3.2.3',
+            titulo: 'Ensamble delanteros',
+            hash: 't_3_2_3',
+          },
+          {
+            numero: '3.2.4',
+            titulo: 'Ensamble del cuello',
+            hash: 't_3_2_4',
+          },
+          {
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Los ruedos',
             hash: 't_3_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Terminación',
             hash: 't_3_4',
           },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Corte y confección del pantalón',
+        desarrolloContenidos: true,
+        subMenu: [
           {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
+            numero: '4.1',
+            titulo: 'Montaje de cierre',
+            hash: 't_4_1',
           },
           {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
+            numero: '4.2',
+            titulo: 'Bolsillo lateral',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Bolsillos posteriores',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: ' Tiro posterior',
+            hash: 't_4_4',
+          },
+          {
+            numero: '4.5',
+            titulo: 'Cerrada de los costados',
+            hash: 't_4_5',
+          },
+          {
+            numero: '4.6',
+            titulo: 'Cerrada de la entrepierna',
+            hash: 't_4_6',
+          },
+          {
+            numero: '4.7',
+            titulo: 'Pasadores',
+            hash: 't_4_7',
+          },
+          {
+            numero: '4.8',
+            titulo: 'Pretina',
+            hash: 't_4_8',
+          },
+          {
+            numero: '4.9',
+            titulo: 'Ruedo',
+            hash: 't_4_9',
           },
         ],
       },
@@ -254,17 +212,12 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'nuevaActividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Nueva actividad didáctica',
         desarrolloContenidos: true,
       },
       {
@@ -285,7 +238,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CF2_52450390_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -299,135 +252,139 @@ export default {
       },
     ],
   },
-  referencias: [
+  complementario: [
     {
+      tema: '1. Corte y confección de falda',
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/w9GGdFRgpzY',
+      tipo: 'video',
+      link: 'https://youtu.be/w9GGdFRgpzY',
     },
     {
+      tema: '3. Corte y confección de camisa',
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Acoldemoda [@Acoldemoda]. (s/f). Confección de CAMISA CLÁSICA MASCULINA - DIY - Paso a paso. Youtube. Recuperado de https://www.youtube.com/watch?v=x7d_FSKU5_o',
+      tipo: 'video',
+      link: 'https://youtu.be/x7d_FSKU5_o',
     },
     {
+      tema: '4.2 Bolsillo lateral',
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/zozv1G9Yk_M',
+      tipo: 'video',
+      link: 'https://youtu.be/zozv1G9Yk_M',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'Aletilla',
+      significado: 'Pieza de tela que acompaña a la cremallera del pantalón.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Bastas',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'También llamadas pespunte, es una serie de puntadas en uno o más materiales',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'Bocamanga',
+      significado: 'Medida de la parte inferior de las mangas.',
     },
     {
-      termino: '<em>Áctores</em>',
+      termino: 'Bragueta',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'abertura delantera de los pantalones o calzoncillos. Inventada en Francia en el siglo XV, originalmente no llevaba botones; se trataba de un triángulo de tela que se ataba con un lazo y que servía para guardar las monedas.',
     },
     {
-      termino: 'Moda',
+      termino: 'Complementos',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Son las piezas adicionales que hacen parte de una prenda, estas se emplean para dar un mejor acabado o terminado a la camisa, entre estas se hallan la pechera o extensión de la abotonadura, el sesgo de la portañuela, la portañuela y las entretelas.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Dobladillo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Es el borde de la tela doblada dos veces sobre si misma asegurada con puntadas a mano o a máquina en la parte inferior de faldas, vestidos, pantalones y orillos de mangas etc.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Embonar',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Ocultar los extremos de dos telas previamente cosidas por medio de otra costura, remplaza la costura de filete.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Enhebrar',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Pasar la hebra por el ojo de la aguja o por el agujero de las cuentas, perlas, etc.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Entretela',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Tejido que se pone entre la tela y el forro de una prenda de vestir, para reforzarla o darle consistencia.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Falso',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Tela de refuerzo, doblez. Es la pieza que se ubica en la parte interna de las chaquetas, dándole generalmente un mejor acabado a la prenda.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Fuelle',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Prense que se hace en partes de las prendas (Bolsillo, espalda) para dar más amplitud.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Ojal',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        ' es un orificio elaborado generalmente al borde de una prenda a través del cual pasa un botón, la medida del ojal debe corresponder con el diámetro del botón, es recomendable entretelar la tela en la ubicación del ojal.',
+    },
+    {
+      termino: 'Lateral',
+      significado: ' El lado o el costado de una pieza.',
+    },
+    {
+      termino: 'Pernera',
+      significado: 'Parte del pantalón que cubre cada pierna.',
+    },
+    {
+      termino: 'Pliegue',
+      significado:
+        'Doblez hecho para ceñir como pinza hueca. Doblez hecho para dar amplitud como los usados en el plisado.',
+    },
+    {
+      termino: 'Presillar',
+      significado:
+        'Son puntadas realizadas por ciclos en la máquina presilladora, para darle seguridad y terminación en las uniones de elásticos, sesgos y cargaderas.',
+    },
+    {
+      termino: 'Quiebre',
+      significado: 'El doblez que tiene la solapa.',
+    },
+    {
+      termino: 'Talle',
+      significado:
+        'Cintura del cuerpo humano. Parte del vestido que corresponde a la cintura. Medida tomada para un vestido o traje, comprendida desde el cuello a la cintura, tanto por delante como por detrás.',
+    },
+    {
+      termino: 'Tiro',
+      significado: 'Es la parte del pantalón donde se unen las piernas.',
     },
   ],
-  complementario: [
+  referencias: [
     {
-      tema: 'Estrategias para la segmentación de mercados',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Alfahogar (2017). Características máquinas de coser industrial.',
+      link: '',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Clayton, Marie (2009). Coser en casa: fundamentos, técnicas, corte y confección, sastrería avanzada, ropa de hogar y arreglos. Barcelona (España): Editorial Blume. ISBN 978-84-8076-842-9. R.',
+      link: '',
     },
     {
-      tema: 'Estrategias para la segmentación de mercados',
+      referencia: 'El baúl de las costureras. (2017). Maquinaria y accesorios.',
+      link: '',
+    },
+    {
       referencia:
-        'Cámara de Comercio de Medellín. (2020). <em>Suftware</em> Tendencias de negocios - Mercadeo y ventas',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Mors de Castro, Lucía (2010). Patronaje de moda: una guía práctica paso a paso. Barcelona (España): Promopress. ISBN 978-84-9364-087-3.',
+      link: '',
     },
   ],
   creditos: [
@@ -436,13 +393,13 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Líder del Ecosistema',
+          cargo: 'Responsable del ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de Línea de Producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -450,9 +407,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Olga Constanza Bermúdez James',
+          cargo: 'Experto temático V1',
+          centro: 'Centro Agroturístico - Regional Santander',
+        },
+        {
+          nombre: 'Carolina Jiménez ',
+          cargo: 'Evaluadora instruccional',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -460,19 +422,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Nombre centro de formación',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Full-Stack',
-          centro: 'Nombre centro de formación',
+          nombre: 'Leonardo Castellanos Rodriguez',
+          cargo: 'Desarrollador <em>full stack</em>',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Productor Multimedia',
-          centro: 'Nombre centro de formación',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y productora multimedia',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },
@@ -480,14 +442,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y Vinculador de RED',
-          centro: 'Nombre centro formación',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de recursos educativos digitales',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
     },

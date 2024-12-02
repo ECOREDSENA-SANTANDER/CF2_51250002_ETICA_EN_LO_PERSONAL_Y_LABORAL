@@ -44,6 +44,12 @@ const router = new VueRouter({
           component: () =>
             import(/* webpackChunkName: "tema3" */ '../views/Tema3.vue'),
         },
+        {
+          path: 'tema4',
+          name: 'tema4',
+          component: () =>
+            import(/* webpackChunkName: "tema3" */ '../views/Tema4.vue'),
+        },
       ],
     },
     {
@@ -51,14 +57,6 @@ const router = new VueRouter({
       name: 'actividad',
       component: () =>
         import(/* webpackChunkName: "actividad" */ '../views/Actividad.vue'),
-    },
-    {
-      path: '/nueva-actividad',
-      name: 'nuevaActividad',
-      component: () =>
-        import(
-          /* webpackChunkName: "actividad" */ '../views/Actividad/ActividadDidactica.vue'
-        ),
     },
     {
       path: '/glosario',
