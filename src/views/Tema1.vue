@@ -23,27 +23,129 @@
     .etiqueta.p-2.d-flex.mb-5(data-aos="fade-left")
       h4.mb-0.ps-5.pe-5 Razón Social y Protocolo de Servicios
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        SlyderF.custom.mb-5(columnas="col-lg-4 col-xl-4 col-md-6")
+            .tarjeta.tarjeta--slyder.bg2.p-4.shadow
+              .row.justify-content-center.mb-3
+                .col-6
+                  img.img-a.img-t(src="@/assets/curso/temas/Tema1/img1.svg", alt="alt").img100.m-auto(data-aos="zoom-in")
+              .row.justify-content-center.mb-3
+                .col-10.mb-4
+        
+                    h4.text-center.mb-0 Guía para la toma de decisiones
+                p.mb-0.text-center La ética ayuda a distinguir entre lo correcto y lo incorrecto, permitiendo actuar conforme a principios y valores como la honestidad, la justicia y la responsabilidad.
+            .tarjeta.tarjeta--slyder.bg2.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img.img-a.img-t(src="@/assets/curso/temas/Tema1/img2.svg", alt="alt").img100.m-auto(data-aos="zoom-in")
+              .row.justify-content-center.mb-3
+                .col-10.mb-4
+    
+                    h4.text-center.mb-0 Construcción de la integridad
+                p.mb-0.text-center Fortalece el carácter personal al promover coherencia entre los pensamientos, palabras y acciones, generando confianza y respeto en las relaciones interpersonales.
+            .tarjeta.tarjeta--slyder.bg2.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img.img-a.img-t(src="@/assets/curso/temas/Tema1/img3.svg", alt="alt").img100.m-auto(data-aos="zoom-in")
+              .row.justify-content-center.mb-3
+                .col-10.mb-4
+          
+                    h4.text-center.mb-0 Fomento del bienestar
+                p.mb-0.text-center Actuar éticamente contribuye a una vida más satisfactoria y en paz, ya que minimiza los conflictos internos y externos.
+            .tarjeta.tarjeta--slyder.bg2.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img.img-a.img-t(src="@/assets/curso/temas/Tema1/img4.svg", alt="alt").img100.m-auto(data-aos="zoom-in")
+              .row.justify-content-center.mb-3
+                .col-10.mb-4
+                    h4.text-center.mb-0 Impacto en la comunidad 
+                p.mb-0.text-center Las acciones éticas generan un efecto positivo en el entorno, influyendo en el desarrollo de una sociedad más justa y equitativa.
+           
+
+    .etiqueta.p-2.d-flex.mb-5(data-aos="fade-left")
+      h4.mb-0.ps-5.pe-5 En la vida laboral
+
+    .cont_5_1.mb-4
+      .row.justify-content-center
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/temas/Tema1/01.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center Promoción de la confianza
+              p.mt-4.mb-0.text-center La ética en el trabajo fomenta la confianza entre colaboradores, líderes y clientes, esencial para construir relaciones duraderas.
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/temas/Tema1/02.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center Mejora del clima laboral
+              p.mt-4.mb-0.text-center Un entorno ético reduce conflictos y promueve un ambiente de respeto y cooperación, aumentando la productividad.
+        
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/temas/Tema1/03.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center Fortalecimiento de la reputación
+              p.mt-4.mb-0.text-center Las empresas y los profesionales con altos estándares éticos gozan de una mejor imagen y credibilidad en el mercado.
+
+    .cont_5_1.mb-4
+      .row.justify-content-center
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/temas/Tema1/07.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center Prevención de conductas inapropiadas
+              p.mt-4.mb-0.text-center La ética establece límites claros frente a conductas como la corrupción, el abuso de poder o la discriminación, protegiendo tanto a las personas como a las organizaciones.
+        
+        .col-lg-4.mb-4.mb-lg-0.col-md-6(data-aos="zoom-in")
+          .crd_hover_txt
+            .crd_hover_txt--img
+              figure
+                img(src='@/assets/curso/temas/Tema1/08.png' alt="")
+            .crd_hover_txt--body.colt
+              h5.mb-3.text-center Impacto en la sostenibilidad
+              p.mt-4.mb-0.text-center Promueve prácticas responsables en términos sociales, económicos y ambientales, alineándose con objetivos de desarrollo sostenible.
+      
 
 
+    separador
+    #t_1_2.titulo-segundo.mb-5
+      h2 1.2  Función de la ética en la vida personal y laboral
+
+    p.mb-5 Guía las acciones y decisiones basadas en valores como la integridad, la responsabilidad y el respeto hacia los demás; en el ámbito personal, promueve el desarrollo de una convivencia armoniosa y una vida coherente con los principios individuales; mientras que, en el ámbito laboral, fomenta la confianza, el compromiso y un entorno profesional justo y transparente.
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 1. 
+          span Función de la ética social
+        figure
+          img(src='@/assets/curso/temas/Tema1/figura1.svg', alt='La figura presenta un esquema relacionado con la ética personal, dividido en varias categorías. El concepto central es la ética personal, que se vincula al desarrollo de los valores y la moral. Este desarrollo se aborda a través de tres aspectos principales: la manera en que la persona se define a sí misma, sus actuaciones y la valoración del progreso de su dignidad personal. Estos elementos están organizados de manera jerárquica y conectados mediante líneas que estructuran las relaciones entre las ideas. ')
+        figcaption Fuente: SENA
 
 
+    p.mb-5 El ser humano, por su naturaleza social, necesita la interacción con individuos, grupos o comunidades para lograr una convivencia armónica, regida por normas que protegen la dignidad, integridad y cohesión social. En el ámbito empresarial, la ética actúa como una guía práctica y teórica que orienta la toma de decisiones estratégicas, promoviendo la responsabilidad económica, social y ambiental, así como comportamientos coherentes con los valores y objetivos de la organización.
 
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12
+        .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+          h5 Figura 2. 
+          span  Función de la ética empresarial
+        figure
+          img(src='@/assets/curso/temas/Tema1/figura2.svg', alt='La imagen representa un esquema sobre la función de la ética empresarial, estructurado en cuatro áreas principales: compromiso con la comunidad, medio ambiente, calidad de la vida laboral y comercio y marketing responsable. Estos elementos están organizados alrededor del concepto central, destacando los pilares fundamentales que orientan las prácticas éticas en el ámbito corporativo. ')
+        figcaption Fuente: SENA
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
 
 
 

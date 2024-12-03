@@ -89,7 +89,27 @@
   background-repeat: no-repeat
   width: fit-content
   background-color:#fff
+.crd_hover_txt
+  position: relative
+  padding: 0 !important
+  overflow: hidden !important
+  border-radius: 10px
+.crd_hover_txt .crd_hover_txt--body
+  position: absolute
+  padding: 1.2rem
+  width: 100%
+  bottom: 0
+  transition: all .5s ease-in-out
+  transform: translateY(calc(100% - 3.85rem))
 
+.crd_hover_txt:hover .crd_hover_txt--body
+  transition: all .5s ease-in-out
+  transform: translateY(0)
+  background-color: #96D5CA !important
+.crd_hover_txt:hover .crd_hover_txt--body *
+  color: black !important
+.colt
+  background-color: #EACF5A
 .titulo-segundo:after 
     content: ''
     display: block
@@ -173,7 +193,7 @@ figcaption.whi
     margin-right: 0px
 
 .bg2
-  background-color: #fff
+  background-color: #A3D8B4
   border-radius: 20px
 
 .bg3
