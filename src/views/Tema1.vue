@@ -8,7 +8,7 @@
       h1 Desarrollo de la ética
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-lg-3
+      .col-lg-3.col-8
         img.mb-3(src='@/assets/curso/temas/Tema1/img1.png', alt='')
       .col-lg-9
         p.mb-4 El desarrollo de la ética abarca diferentes dimensiones que orientan las decisiones y comportamientos tanto en la vida personal como laboral. Estas decisiones se fundamentan en reglas básicas que permiten reflexionar y abordar tanto problemas internos como externos. En este contexto, la ética actúa como un marco para gestionar situaciones complejas con base en principios sólidos.
@@ -206,19 +206,19 @@
         p.mb-4 El desarrollo de la ética abarca diferentes dimensiones que orientan las decisiones y comportamientos tanto en la vida personal como laboral. Estas decisiones se fundamentan en reglas básicas que permiten reflexionar y abordar tanto problemas internos como externos. En este contexto, la ética actúa como un marco para gestionar situaciones complejas con base en principios sólidos.
           .cajon.color-primario.p-4.mb-4
             p La función de la ética se refleja en su compromiso con la comunidad y el medio ambiente, promoviendo una calidad de vida laboral adecuada y prácticas responsables en el comercio y el marketing; en el ámbito profesional, se establecen criterios generales que incluyen la comprensión del entorno individual y colectivo, la defensa de valores y conocimientos, y el reconocimiento de las limitaciones personales y profesionales. También se destaca la importancia de promover la utilidad a través de canales responsables, denunciar conductas inadecuadas y proteger a los colegas frente a injusticias.
-      .col-lg-3
+      .col-lg-3.col-8
         img(src='@/assets/curso/temas/Tema1/img2.png', alt='Texto que describa la imagen')    
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-5
         .row
-          .col-lg-2
+          .col-lg-2.col-3.col-sm-2
             img.mb-3(src='@/assets/curso/temas/Tema1/img3.png', alt='Texto que describa la imagen') 
           .col-lg-11
             p #[b 1. Factores internos:] discriminación, acoso laboral, retribución justa, confidencialidad y privacidad de la información.  
       .col-lg-5
         .row
-          .col-lg-2
+          .col-lg-2.col-3.col-sm-2
             img.mb-3(src='@/assets/curso/temas/Tema1/img4.png', alt='Texto que describa la imagen') 
           .col-lg-11
             p #[b 2. Factores externos:] falta de veracidad y transparencia, publicidad engañosa, falta de respeto al medio ambiente, corrupción y calidad insuficiente de los productos.
@@ -245,49 +245,49 @@
     p.mb-5 En el ámbito profesional y laboral, algunos ejemplos de conductas éticas generales incluyen:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+      .col-lg-3.col-8.col-sm-6
         img.mb-3(src='@/assets/curso/temas/Tema1/img5.png', alt='Texto que describa la imagen') 
       .col-lg-9
         SlyderF.custom.mb-5(columnas="col-lg-3 col-xl-3 col-md-5")
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-4.tb
             .row.justify-content-center.mb-5
               .col-7
                 figure
                   img.mb-3(src='@/assets/curso/temas/Tema1/1.svg', alt='Texto que describa la imagen')
               p.text-small.text-center Comprender a los clientes de manera individual y contextual, teniendo en cuenta su entorno.
           
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-4.tb
             .row.justify-content-center.mb-2
               .col-7
                 figure
                   img.mb-3(src='@/assets/curso/temas/Tema1/2.svg', alt='Texto que describa la imagen')
               p.text-small.text-center Defender los conocimientos adquiridos, las metodologías implementadas y los valores inherentes a la profesión.
           
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-4.tb
             .row.justify-content-center.mb-4
               .col-7
                 figure
                   img.mb-3(src='@/assets/curso/temas/Tema1/3.svg', alt='Texto que describa la imagen')
               p.text-small.text-center Reconocer las limitaciones tanto personales como profesionales, fomentando un aprendizaje continuo.
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-4.tb
             .row.justify-content-center.mb-4
               .col-7
                 figure
                   img.mb-4(src='@/assets/curso/temas/Tema1/4.svg', alt='Texto que describa la imagen')
               p.text-small.text-center Promover la utilidad mediante el uso de canales adecuados y actuando de manera responsable.
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-4.tb
             .row.justify-content-center.mb-5
               .col-7
                 figure
                   img.mb-5(src='@/assets/curso/temas/Tema1/5.svg', alt='Texto que describa la imagen')
               p.text-small.text-center Facilitar y distribuir oportunidades de conocimiento de forma equitativa.
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-4.tb
             .row.justify-content-center.mb-1
               .col-7
                 figure
                   img.mb-3(src='@/assets/curso/temas/Tema1/6.svg', alt='Texto que describa la imagen')
               p.text-small.text-center Alertar a los organismos correspondientes, tanto dentro como fuera del entorno profesional, cuando sea necesario para garantizar el cumplimiento ético.
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-4.tb
             .row.justify-content-center.mb-3
               .col-7
                 figure
@@ -342,6 +342,24 @@
     
     p.mb-5 En el ámbito laboral, las competencias éticas son fundamentales, ya que no solo garantizan la calidad y efectividad en las tareas, sino que también promueven la integridad, el respeto y la responsabilidad, valores esenciales para el desarrollo sostenible y la convivencia en el entorno profesional.
     
+    ImagenInfografica.color-primario.mb-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/temas/Tema1/info.png', alt='Texto que describa la imagen')
+       
+
+      .tarjeta.color-primario.p-3(x="17%" y="50%" numero="1")
+        h5.mb-2 Conocimientos
+        p Los conocimientos teórico-prácticos y la experiencia adquirida a lo largo de la trayectoria profesional son necesarios para el desempeño en el puesto de trabajo.
+
+      .tarjeta.color-primario.p-3(x="50%" y="50%" numero="2")
+        h5.mb-2 Habilidades
+        p Capacidades y destrezas genéricas y específicas, que permiten garantizar el éxito en el desempeño del puesto de trabajo.
+
+      .tarjeta.color-primario.p-3(x="83%" y="50%" numero="3")
+        h5.mb-2 Actitudes
+        p Características o rasgos de la personalidad de un sujeto que determinan su correcta actuación.
+
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-7
         .bloque-texto-c.color-secundario.p-4
