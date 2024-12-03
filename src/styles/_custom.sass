@@ -19,6 +19,11 @@
 
   100%
     transform: translateY(0px)
+
+.tarjeta1
+  background-color: #43B869
+.tarjeta2
+  background-color: #087854
 .cajon.color-primario 
   background-color: #4bb1a34f
 .bg-verde
@@ -31,7 +36,12 @@
     
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.bg-verde.acordion__activo
   background-color: #F5E7E9
-
+.tarjeta--boton 
+  border-radius: 20px
+  background-color: #eacf5a
+  cursor: pointer
+  transition: background-color 0.3s ease-in-out
+  height: 320px
 
 .img
   width: 75%
@@ -43,12 +53,24 @@
   border-radius: 20px
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
   background-color: #EA5456
+.bloque-texto-c.color-secundario 
+  background-color: #43b869
+
 .fondo-slyder
   background-image: url("../assets/curso/temas/Tema1/fondo.png") 
   background-position: center
   background-repeat: no-repeat
   background-size: 100% 100% 
-
+.fondo-puntos
+  background-image: url("../assets/curso/temas/Tema1/fondopuntos.png") 
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 100% 100%
+.fondo-slyder-blanco
+  background-image: url("../assets/curso/temas/Tema1/fondo1.png") 
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 100% 100% 
 .fondo-slyder2
   background-image: url("../assets/curso/temas/Tema2/fondo.png") 
   background-position: center
@@ -60,7 +82,12 @@
 .pasos-b__header__btn--left
   background-color: #EA5456 !important
 .linea-tiempo-c__header__btn i, .linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i, .pasos-b__header__btn--left i, .pasos-b__header__btn--right i 
-  color: #ffffff
+  color: #0a0a0a
+.linea-tiempo-c__header__btn--right
+  background-color: #EA5456 !important
+.linea-tiempo-c__header__btn--left
+  background-color: #EA5456 !important  
+  
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6 
     color: #0a0a0a
 
@@ -101,7 +128,9 @@
   bottom: 0
   transition: all .5s ease-in-out
   transform: translateY(calc(100% - 3.85rem))
-
+.bgverde
+  background-color: #4bb1a34f
+  
 .crd_hover_txt:hover .crd_hover_txt--body
   transition: all .5s ease-in-out
   transform: translateY(0)
