@@ -1,20 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'Procesos de corte y confección',
+    componenteFormativo: 'Ética para el éxito, valores que transforman',
     descripcionCurso:
-      'Para confeccionar prendas de vestir es importante tener en cuenta los diferentes procesos de detalles y características particulares de cada prenda, en este componente se describen y especifican cada uno de los procedimientos para realizar el corte y armado de falda, blusa, camisa y pantalón de manera detallada y didáctica.',
+      'Se aborda la importancia de la ética en los ámbitos personal y laboral como un pilar para fomentar comportamientos responsables y una convivencia armónica. Destaca cómo la ética guía decisiones basadas en valores como la integridad, el respeto y la responsabilidad, impactando positivamente en la calidad de vida y en el entorno laboral mediante la promoción de la confianza, la mejora del clima organizacional y la sostenibilidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -32,37 +23,40 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Corte y confección de la falda ',
+        titulo: 'Desarrollo de la ética',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Pinzas',
+            titulo:
+              'Evaluar los lineamientos organizacionales para fomentar la ética laboral',
             hash: 't_1_1',
           },
           {
             numero: '1.2',
-            titulo: 'Filetear piezas ',
+            titulo: 'Función de la ética en la vida personal y laboral',
             hash: 't_1_2',
           },
           {
             numero: '1.3',
-            titulo: 'Cierre ',
+            titulo:
+              'Situaciones que generan reflexión y decisiones fundamentadas en la ética',
             hash: 't_1_3',
           },
           {
             numero: '1.4',
-            titulo: 'Costados ',
+            titulo: 'Criterios generales de ética profesional y laboral',
             hash: 't_1_4',
           },
           {
             numero: '1.5',
-            titulo: 'Pretina ',
+            titulo:
+              'Consideraciones y reconocimiento de la ética en los ámbitos humanos',
             hash: 't_1_5',
           },
           {
             numero: '1.6',
-            titulo: 'Ruedo ',
+            titulo: 'Competencias éticas en lo laboral y su desarrollo',
             hash: 't_1_6',
           },
         ],
@@ -70,139 +64,23 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Corte y confección de la blusa',
+        titulo: 'La comunicación ética',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Corte de la blusa',
+            titulo: 'Teoría de la comunicación',
             hash: 't_2_1',
           },
           {
             numero: '2.2',
-            titulo: 'Pasos para la confección de la blusa',
+            titulo: 'La asertividad',
             hash: 't_2_2',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Corte y confección de la camisa',
-        desarrolloContenidos: true,
-        subMenu: [
           {
-            numero: '3.1',
-            titulo: 'Preparación de las piezas',
-            hash: 't_3_1',
-          },
-          {
-            numero: '3.1.1',
-            titulo: 'Preparación del cuello',
-            hash: 't_3_1_1',
-          },
-          {
-            numero: '3.1.2',
-            titulo: 'Preparación de la perilla',
-            hash: 't_3_1_2',
-          },
-          {
-            numero: '3.1.3',
-            titulo: 'Preparación y ensamble de bolsillo',
-            hash: 't_3_1_3',
-          },
-          {
-            numero: '3.1.4',
-            titulo: 'Delanteros y espaldar',
-            hash: 't_3_1_4',
-          },
-          {
-            numero: '3.2',
-            titulo: 'Ensamble',
-            hash: 't_3_2',
-          },
-          {
-            numero: '3.2.1',
-            titulo: 'Ensamble de la espalda',
-            hash: 't_3_2_1',
-          },
-          {
-            numero: '3.2.2',
-            titulo: 'Ensamble de las mangas',
-            hash: 't_3_2_3',
-          },
-          {
-            numero: '3.2.3',
-            titulo: 'Ensamble delanteros',
-            hash: 't_3_2_3',
-          },
-          {
-            numero: '3.2.4',
-            titulo: 'Ensamble del cuello',
-            hash: 't_3_2_4',
-          },
-          {
-            numero: '3.3',
-            titulo: 'Los ruedos',
-            hash: 't_3_3',
-          },
-          {
-            numero: '3.4',
-            titulo: 'Terminación',
-            hash: 't_3_4',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        numero: '4',
-        titulo: 'Corte y confección del pantalón',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '4.1',
-            titulo: 'Montaje de cierre',
-            hash: 't_4_1',
-          },
-          {
-            numero: '4.2',
-            titulo: 'Bolsillo lateral',
-            hash: 't_4_2',
-          },
-          {
-            numero: '4.3',
-            titulo: 'Bolsillos posteriores',
-            hash: 't_4_3',
-          },
-          {
-            numero: '4.4',
-            titulo: ' Tiro posterior',
-            hash: 't_4_4',
-          },
-          {
-            numero: '4.5',
-            titulo: 'Cerrada de los costados',
-            hash: 't_4_5',
-          },
-          {
-            numero: '4.6',
-            titulo: 'Cerrada de la entrepierna',
-            hash: 't_4_6',
-          },
-          {
-            numero: '4.7',
-            titulo: 'Pasadores',
-            hash: 't_4_7',
-          },
-          {
-            numero: '4.8',
-            titulo: 'Pretina',
-            hash: 't_4_8',
-          },
-          {
-            numero: '4.9',
-            titulo: 'Ruedo',
-            hash: 't_4_9',
+            numero: '2.3',
+            titulo: '¿De qué se trata la comunicación organizacional?',
+            hash: 't_2_3',
           },
         ],
       },

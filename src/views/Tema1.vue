@@ -5,9 +5,64 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Corte y confección de la falda 
+      h1 Desarrollo de la ética
 
-    p.mb-4 Para el corte de la falda se deben seguir los siguientes pasos: 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+      .col-lg-3
+        img.mb-3(src='@/assets/curso/temas/Tema1/img1.png', alt='')
+      .col-lg-9
+        p.mb-4 El desarrollo de la ética abarca diferentes dimensiones que orientan las decisiones y comportamientos tanto en la vida personal como laboral. Estas decisiones se fundamentan en reglas básicas que permiten reflexionar y abordar tanto problemas internos como externos. En este contexto, la ética actúa como un marco para gestionar situaciones complejas con base en principios sólidos.
+        .cajon.color-primario.p-4.mb-4
+          p La función de la ética se refleja en su compromiso con la comunidad y el medio ambiente, promoviendo una calidad de vida laboral adecuada y prácticas responsables en el comercio y el marketing; en el ámbito profesional, se establecen criterios generales que incluyen la comprensión del entorno individual y colectivo, la defensa de valores y conocimientos, y el reconocimiento de las limitaciones personales y profesionales. También se destaca la importancia de promover la utilidad a través de canales responsables, denunciar conductas inadecuadas y proteger a los colegas frente a injusticias.
+      p En los ámbitos humanos, la ética enfatiza el respeto a la autonomía y la protección de las personas como principios esenciales. Este reconocimiento promueve una convivencia basada en la dignidad y los derechos individuales. Finalmente, para fomentar el desarrollo ético en el entorno laboral, es fundamental fortalecer competencias específicas, como conocimientos, habilidades y actitudes, que permitan una actuación profesional basada en la integridad y la responsabilidad. En conjunto, estos elementos consolidan la ética como un pilar esencial para el desarrollo humano y profesional.
+
+    separador
+    #t_1_1.titulo-segundo.mb-5
+      h2 1.1  Evaluar los lineamientos organizacionales para fomentar la ética laboral
+
+    .etiqueta.p-2.d-flex.mb-5(data-aos="fade-left")
+      h4.mb-0.ps-5.pe-5 Razón Social y Protocolo de Servicios
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .row.justify-content-center(data-aos="zoom-in")
       .col-lg-10
@@ -49,9 +104,7 @@
                     span Ir al sitio
                     i.fas.fa-file-download 
     
-    separador
-    #t_1_1.titulo-segundo.mb-5
-      h2 1.1  Pinzas 
+  
     
     p.mb-4 Las pinzas son las que permiten que la falda tenga una mejor horma y la silueta sea más perfecta. A continuación, se estudia el paso a paso de la elaboración de las pinzas de la falda:
   

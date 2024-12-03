@@ -2,8 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Se sabe que cada prenda que se desea confeccionar tiene diferentes características que conllevan a realizar diferentes tipos de procesos. En el siguiente diagrama se presentan las características principales de cada prenda presentada en el componente, y se relacionan los procesos que se deben llevar a cabo para su confección.
-
+    p.mb-5 La ética desempeña un papel esencial tanto en la vida personal como en la laboral, regulando comportamientos y promoviendo una convivencia armónica basada en valores fundamentales, este marco ético abarca desde la promoción de la integridad individual hasta el fortalecimiento de la sostenibilidad y la transparencia en las organizaciones. Al integrarse en los ámbitos personales y empresariales, fomenta un impacto positivo en la sociedad, estableciendo criterios para la toma de decisiones responsables y el desarrollo de relaciones interpersonales y profesionales sólidas.
     .row.justify-content-center
       .col-lg-12.mb-5
         figure

@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-4(data-aos="fade-right") El siguiente video presenta de manera detallada los temas tratados en el componente formativo, resaltando la importancia de conocer las herramientas con las que se trabaja en el área de confecciones:
+    p.mb-4(data-aos="fade-right") El desarrollo de la ética personal y laboral implica conductas que se ajustan al contexto social, reguladas por normas que promueven la convivencia y mejoran la calidad de vida comunitaria. Más allá del beneficio individual, la ética es una necesidad colectiva que impulsa al ser humano a ser más sociable y comunicativo. Este aprendizaje fomenta la comprensión de la ética, sus funciones, criterios y competencias necesarias para una convivencia armónica en el mundo actual.
 
     figure(data-aos="fade-left")
       .video

@@ -1,1 +1,1 @@
-module.exports = 'Procesos de corte y confección'
+module.exports = 'Ética para el éxito, valores que transforman'
