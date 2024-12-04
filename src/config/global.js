@@ -132,136 +132,141 @@ export default {
   },
   complementario: [
     {
-      tema: '1. Corte y confección de falda',
+      tema: '1. Desarrollo de la ética',
       referencia:
-        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/w9GGdFRgpzY',
-      tipo: 'video',
-      link: 'https://youtu.be/w9GGdFRgpzY',
+        'Equipo editorial, Etecé. (2020, 24 septiembre). Ética Profesional - Qué es, concepto, función, tipos y características. Concepto. ',
+      tipo: 'Revista',
+      link: 'https://concepto.de/etica-profesional/',
     },
     {
-      tema: '3. Corte y confección de camisa',
+      tema: '2.2. La asertividad',
       referencia:
-        'Acoldemoda [@Acoldemoda]. (s/f). Confección de CAMISA CLÁSICA MASCULINA - DIY - Paso a paso. Youtube. Recuperado de https://www.youtube.com/watch?v=x7d_FSKU5_o',
-      tipo: 'video',
-      link: 'https://youtu.be/x7d_FSKU5_o',
-    },
-    {
-      tema: '4.2 Bolsillo lateral',
-      referencia:
-        'YouTube. (s/f). Youtu.Be. Recuperado de https://youtu.be/zozv1G9Yk_M',
-      tipo: 'video',
-      link: 'https://youtu.be/zozv1G9Yk_M',
+        'Loarte, V. D. M. (2024, 21 marzo). ¿Qué es la comunicación asertiva y por qué es importante? Grupo XXI - Psicología Aplicada. ',
+      tipo: 'Articulo',
+      link:
+        'https://www.grupoxxi-psicologia.net/que-es-la-comunicacion-asertiva-y-por-que-es-importante/',
     },
   ],
   glosario: [
     {
-      termino: 'Aletilla',
-      significado: 'Pieza de tela que acompaña a la cremallera del pantalón.',
-    },
-    {
-      termino: 'Bastas',
+      termino: 'Ética personal',
       significado:
-        'También llamadas pespunte, es una serie de puntadas en uno o más materiales',
+        'Conjunto de principios y valores que orientan las acciones individuales hacia una convivencia armónica y responsable.',
     },
     {
-      termino: 'Bocamanga',
-      significado: 'Medida de la parte inferior de las mangas.',
-    },
-    {
-      termino: 'Bragueta',
+      termino: 'Ética laboral',
       significado:
-        'abertura delantera de los pantalones o calzoncillos. Inventada en Francia en el siglo XV, originalmente no llevaba botones; se trataba de un triángulo de tela que se ataba con un lazo y que servía para guardar las monedas.',
+        ' Prácticas y comportamientos profesionales que garantizan integridad, respeto y responsabilidad en el ámbito laboral.',
     },
     {
-      termino: 'Complementos',
+      termino: 'Integridad',
       significado:
-        'Son las piezas adicionales que hacen parte de una prenda, estas se emplean para dar un mejor acabado o terminado a la camisa, entre estas se hallan la pechera o extensión de la abotonadura, el sesgo de la portañuela, la portañuela y las entretelas.',
+        ' Coherencia entre los valores, pensamientos, palabras y acciones, fomentando confianza y respeto.',
     },
     {
-      termino: 'Dobladillo',
+      termino: 'Responsabilidad Social Corporativa (RSC)',
       significado:
-        'Es el borde de la tela doblada dos veces sobre si misma asegurada con puntadas a mano o a máquina en la parte inferior de faldas, vestidos, pantalones y orillos de mangas etc.',
+        ' Compromiso empresarial con el bienestar social, económico y ambiental.',
     },
     {
-      termino: 'Embonar',
+      termino: 'Transparencia',
       significado:
-        'Ocultar los extremos de dos telas previamente cosidas por medio de otra costura, remplaza la costura de filete.',
+        ' Claridad y honestidad en las operaciones empresariales y la interacción con <i>stakeholders</i>.',
     },
     {
-      termino: 'Enhebrar',
+      termino: 'Asertividad',
       significado:
-        'Pasar la hebra por el ojo de la aguja o por el agujero de las cuentas, perlas, etc.',
+        ' Habilidad comunicativa que permite expresar pensamientos y emociones de manera respetuosa y directa.',
     },
     {
-      termino: 'Entretela',
+      termino: 'Confianza',
       significado:
-        'Tejido que se pone entre la tela y el forro de una prenda de vestir, para reforzarla o darle consistencia.',
+        ' Relación basada en la credibilidad y honestidad, esencial para el desarrollo de vínculos sociales y laborales.',
     },
     {
-      termino: 'Falso',
+      termino: 'Sostenibilidad',
       significado:
-        'Tela de refuerzo, doblez. Es la pieza que se ubica en la parte interna de las chaquetas, dándole generalmente un mejor acabado a la prenda.',
+        ' Prácticas responsables que aseguran el bienestar presente sin comprometer recursos futuros.',
     },
     {
-      termino: 'Fuelle',
+      termino: 'Normas éticas',
       significado:
-        'Prense que se hace en partes de las prendas (Bolsillo, espalda) para dar más amplitud.',
+        ' Reglas que regulan el comportamiento humano para garantizar la convivencia y justicia social.',
     },
     {
-      termino: 'Ojal',
+      termino: 'Comunicación organizacional',
       significado:
-        ' es un orificio elaborado generalmente al borde de una prenda a través del cual pasa un botón, la medida del ojal debe corresponder con el diámetro del botón, es recomendable entretelar la tela en la ubicación del ojal.',
+        ' Proceso de intercambio de información que alinea a los empleados con los objetivos de la empresa.',
     },
     {
-      termino: 'Lateral',
-      significado: ' El lado o el costado de una pieza.',
+      termino: 'Conducta ética',
+      significado: '',
     },
     {
-      termino: 'Pernera',
-      significado: 'Parte del pantalón que cubre cada pierna.',
-    },
-    {
-      termino: 'Pliegue',
+      termino: 'Código de ética',
       significado:
-        'Doblez hecho para ceñir como pinza hueca. Doblez hecho para dar amplitud como los usados en el plisado.',
+        ' Acciones que reflejan valores y principios universales, respetando derechos y promoviendo equidad.',
     },
     {
-      termino: 'Presillar',
+      termino: 'Criterios éticos',
       significado:
-        'Son puntadas realizadas por ciclos en la máquina presilladora, para darle seguridad y terminación en las uniones de elásticos, sesgos y cargaderas.',
+        ' Parámetros generales que orientan decisiones responsables en contextos personales y laborales.',
     },
     {
-      termino: 'Quiebre',
-      significado: 'El doblez que tiene la solapa.',
-    },
-    {
-      termino: 'Talle',
+      termino: 'Valores',
       significado:
-        'Cintura del cuerpo humano. Parte del vestido que corresponde a la cintura. Medida tomada para un vestido o traje, comprendida desde el cuello a la cintura, tanto por delante como por detrás.',
+        ' Principios fundamentales como la justicia, el respeto y la honestidad, que guían el comportamiento ético.',
     },
     {
-      termino: 'Tiro',
-      significado: 'Es la parte del pantalón donde se unen las piernas.',
+      termino: 'Resolución de conflictos',
+      significado:
+        ' Capacidad para abordar desacuerdos de manera justa, promoviendo soluciones éticas y respetuosas.',
+    },
+    {
+      termino: 'Código de ética',
+      significado:
+        ' Documento formal que establece principios, normas y procedimientos para garantizar conductas responsables en una organización.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Alfahogar (2017). Características máquinas de coser industrial.',
+        'Watzlawick, P., Beavin, H., & Jackson, D. D. (1974). Teoría de la comunicación. Barcelona: Herder.',
       link: '',
     },
     {
       referencia:
-        'Clayton, Marie (2009). Coser en casa: fundamentos, técnicas, corte y confección, sastrería avanzada, ropa de hogar y arreglos. Barcelona (España): Editorial Blume. ISBN 978-84-8076-842-9. R.',
-      link: '',
-    },
-    {
-      referencia: 'El baúl de las costureras. (2017). Maquinaria y accesorios.',
+        'Van der Hofstadt Román, C. J. (2005). El libro de las habilidades de comunicación. Ediciones Díaz de Santos.',
       link: '',
     },
     {
       referencia:
-        'Mors de Castro, Lucía (2010). Patronaje de moda: una guía práctica paso a paso. Barcelona (España): Promopress. ISBN 978-84-9364-087-3.',
+        'Harris, O. J., & French, W. L. (1980). Administración de recursos humanos. Limusa.',
+      link: '',
+    },
+    {
+      referencia:
+        'Lasswell, H. D. (1985). Estructura y función de la comunicación en la sociedad. Sociología de la Comunicación de masas. II Estructura, funciones y efectos. Barcelona. Gustavo Gili, 50-68.',
+      link: '',
+    },
+    {
+      referencia:
+        'Salazar Estrada, J. G., Guerrero Pupo, J. C., Machado Rodríguez, Y. B., & Cañedo Andalia, R. (2009). Clima y cultura organizacional: dos componentes esenciales en la productividad laboral. Acimed, 20(4), 67-75.',
+      link: '',
+    },
+    {
+      referencia:
+        'Moreno Uribe, P. H. (2010). Importancia de los valores para el ejercicio ético de la profesión.',
+      link: '',
+    },
+    {
+      referencia:
+        'Federación Internacional de Trabajadores Sociales, Octubre 1994: Principios y criterios de la ética profesional.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gilberto Rodríguez García: “¿Qué son las competencias laborales?” en Contribuciones a la Economía, enero 2007.',
       link: '',
     },
   ],
@@ -285,12 +290,17 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Olga Constanza Bermúdez James',
-          cargo: 'Experto temático V1',
-          centro: 'Centro Agroturístico - Regional Santander',
+          nombre: 'Mayra Cardenas Castellanos',
+          cargo: 'Experta temática',
+          centro: 'Centro de comercio y servicios - Regional Tolima',
         },
         {
-          nombre: 'Carolina Jiménez ',
+          nombre: 'Ángela Patricia Frasser Castaño',
+          cargo: 'Asesora pedagógica',
+          centro: 'Centro de comercio y servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Sandra Paola Morales Paez',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -300,7 +310,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Edison Eduardo Mantilla Cuadros',
+          nombre: 'Marcos Yamid Rubiano Avellaneda',
           cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
@@ -325,7 +335,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Erika Fernanda Mejía Pinzón',
+          nombre: 'Andrea Ardila Chaparro',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

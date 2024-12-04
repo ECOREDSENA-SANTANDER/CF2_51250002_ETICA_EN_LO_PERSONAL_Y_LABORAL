@@ -8,7 +8,7 @@
       h1 Desarrollo de la ética
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
-      .col-lg-3.col-8
+      .col-lg-3.col-8.col-sm-5
         img.mb-3(src='@/assets/curso/temas/Tema1/img1.png', alt='')
       .col-lg-9
         p.mb-4 El desarrollo de la ética abarca diferentes dimensiones que orientan las decisiones y comportamientos tanto en la vida personal como laboral. Estas decisiones se fundamentan en reglas básicas que permiten reflexionar y abordar tanto problemas internos como externos. En este contexto, la ética actúa como un marco para gestionar situaciones complejas con base en principios sólidos.
@@ -206,7 +206,7 @@
         p.mb-4 El desarrollo de la ética abarca diferentes dimensiones que orientan las decisiones y comportamientos tanto en la vida personal como laboral. Estas decisiones se fundamentan en reglas básicas que permiten reflexionar y abordar tanto problemas internos como externos. En este contexto, la ética actúa como un marco para gestionar situaciones complejas con base en principios sólidos.
           .cajon.color-primario.p-4.mb-4
             p La función de la ética se refleja en su compromiso con la comunidad y el medio ambiente, promoviendo una calidad de vida laboral adecuada y prácticas responsables en el comercio y el marketing; en el ámbito profesional, se establecen criterios generales que incluyen la comprensión del entorno individual y colectivo, la defensa de valores y conocimientos, y el reconocimiento de las limitaciones personales y profesionales. También se destaca la importancia de promover la utilidad a través de canales responsables, denunciar conductas inadecuadas y proteger a los colegas frente a injusticias.
-      .col-lg-3.col-8
+      .col-lg-3.col-8.col-sm-5
         img(src='@/assets/curso/temas/Tema1/img2.png', alt='Texto que describa la imagen')    
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")

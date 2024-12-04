@@ -13,21 +13,21 @@ export default {
   name: 'ActividadDidactica',
   data: () => ({
     cuestionario: {
-      tema: 'Procesos de corte y confección',
+      tema: 'Reflexionando sobre la ética y la comunicación',
       titulo: 'Ronda de preguntas',
       introduccion:
-        '<b> Objetivo:</b> Validar el conocimiento adquirido sobre los procesos para la preparación y confección de diferentes prendas de vestir.',
+        '<b> Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales relacionados con la ética personal y laboral, así como su aplicación en el ámbito organizacional, mediante preguntas de falso y verdadero que promuevan el análisis crítico y refuercen el aprendizaje significativo de los participantes.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
           texto:
-            'Las piezas de la falda que se filetean son: el delantero y los dos posteriores.',
+            'La ética personal y laboral busca únicamente el beneficio individual de las personas.',
           imagen: require('@/assets/actividad/img01.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -35,12 +35,12 @@ export default {
         {
           id: 2,
           texto:
-            'El ruedo es de las primeras acciones del proceso de confección de la falda.',
+            'La promoción de la confianza es uno de los beneficios principales de la ética en el ámbito laboral.',
           imagen: require('@/assets/actividad/img02.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -48,7 +48,7 @@ export default {
         {
           id: 3,
           texto:
-            'Los costados de la falda evitan que se caiga y además den el acabado a la parte superior de la prenda. ',
+            'En la década de 1980, la ética empresarial fue ignorada por completo en las investigaciones académicas y publicaciones.',
           imagen: require('@/assets/actividad/img03.png'),
           barajarRespuestas: true,
           opciones: [
@@ -61,8 +61,21 @@ export default {
         {
           id: 4,
           texto:
-            'La camisa es la prenda más importante en el vestuario superior femenino.',
+            'La asertividad es una habilidad comunicativa que puede desarrollarse mediante el aprendizaje.',
           imagen: require('@/assets/actividad/img04.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'Los factores internos relacionados con problemas éticos incluyen la falta de respeto al medio ambiente y la corrupción.',
+          imagen: require('@/assets/actividad/img01.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Falso', esCorrecta: true },
@@ -72,27 +85,14 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
-          id: 5,
-          texto:
-            'La camisa es la prenda de vestir superior más importante en el vestuario formal masculino.',
-          imagen: require('@/assets/actividad/img01.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
           id: 6,
           texto:
-            ' La blusa es la prenda más importante en el vestuario superior femenino.',
+            'Las competencias éticas laborales se limitan únicamente a la calidad técnica del trabajo.',
           imagen: require('@/assets/actividad/img02.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: false },
-            { id: 'b', texto: 'Verdadero', esCorrecta: true },
+            { id: 'a', texto: 'Falso', esCorrecta: true },
+            { id: 'b', texto: 'Verdadero', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -100,7 +100,7 @@ export default {
         {
           id: 7,
           texto:
-            'La pulida consta en quitar los hilos sobrantes e impurezas con las que queda la prenda luego del ensamble.',
+            'La comunicación organizacional efectiva fomenta un ambiente laboral positivo y mejora la eficiencia de la empresa.',
           imagen: require('@/assets/actividad/img03.png'),
           barajarRespuestas: true,
           opciones: [
@@ -113,7 +113,7 @@ export default {
         {
           id: 8,
           texto:
-            'El planchado se realiza con una plancha preferiblemente de mesa para dar una excelente presentación a la prenda.',
+            'Las normas morales adquiridas desde la infancia no influyen en las decisiones éticas de los adultos.',
           imagen: require('@/assets/actividad/img04.png'),
           barajarRespuestas: true,
           opciones: [
@@ -126,12 +126,12 @@ export default {
         {
           id: 9,
           texto:
-            'El montaje del cierre es la última operación que se realiza en proceso de la confección del pantalón.',
+            'La ética empresarial se centra en prácticas responsables y sostenibles, alineadas con la responsabilidad social corporativa.',
           imagen: require('@/assets/actividad/img01.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Falso', esCorrecta: true },
-            { id: 'b', texto: 'Verdadero', esCorrecta: false },
+            { id: 'a', texto: 'Falso', esCorrecta: false },
+            { id: 'b', texto: 'Verdadero', esCorrecta: true },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -139,7 +139,7 @@ export default {
         {
           id: 10,
           texto:
-            'El pantalón es la prenda de vestir inferior, más importante en el vestuario femenino.',
+            'La comunicación efectiva debe ser clara, conciliadora y seguir normas de cortesía para garantizar su éxito.',
           imagen: require('@/assets/actividad/img02.png'),
           barajarRespuestas: true,
           opciones: [

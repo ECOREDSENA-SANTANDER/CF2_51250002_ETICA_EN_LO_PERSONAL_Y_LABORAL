@@ -33,7 +33,12 @@
   color: #ffff
 .acordion__accion__btn--a 
   background-color: #EA5456
-    
+.lista-ol--cuadro__vineta 
+  background-color: #eacf5a !important
+ 
+.fa-check:before
+  content: url("../assets/curso/temas/ico1.svg")!important
+
 .p-3.pb-0.p-md-4.pb-md-0.mb-3.tarjeta.bg-verde.acordion__activo
   background-color: #F5E7E9
 .tarjeta--boton 
@@ -49,12 +54,32 @@
   cursor: pointer
   transition: background-color 0.3s ease-in-out
   height: 320px
+.tb1
+  border-radius: 20px
+  background-color: #eacf5a
+  cursor: pointer
+  transition: background-color 0.3s ease-in-out
+  height: 290px
 .tb2
   border-radius: 20px
   background-color: #eacf5a
   cursor: pointer
   transition: background-color 0.3s ease-in-out
   height: 160px
+.tarjeta.color-acento-contenido--borde
+  background-color: #FFD2CA
+  color: #12263F
+  border: solid 4px #eacf5a00
+.tabs-a__tab 
+  display: block
+  width: 100%
+  text-align: left
+  background-color: #eacf5a
+  padding: 15px 20px
+  border-radius: 5px
+  color: #111e61
+  line-height: 1.2em
+
 .img
   width: 75%
 .slyder-a__bullets__item 
@@ -65,6 +90,8 @@
   border-radius: 20px
 .slyder-a__btn--sigt, .slyder-a__btn--atrs 
   background-color: #EA5456
+.tarjeta--azul 
+  background-color: #43B869
 .bloque-texto-c.color-secundario 
   background-color: #43b869
 .acordion__accion__btn--a
@@ -174,9 +201,7 @@
   display: block
   margin: auto
 
-.titulo-sexto.color-secundario
-    border-left: 10px solid #EFC6CA
-    padding: 3px 0px 3px 10px
+
 
 .linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__content 
     background-color: #F9E7DF
@@ -196,16 +221,6 @@
   background-position: center
   background-repeat: no-repeat
   background-size: 100% 100% 
-.fondo-blan
-  background-image: url("../assets/curso/temas/Tema4/fondo.png") 
-  background-position: center
-  background-repeat: no-repeat
-  background-size: 100% 100% 
-.fondo-rosa
-  background-image: url("../assets/curso/temas/Tema4/fondo2.png") 
-  background-position: center
-  background-repeat: no-repeat
-  background-size: 100% 100%
 
 .fondo1
   background: url('../assets/curso/temas/fondo1.png')
@@ -224,8 +239,6 @@ figcaption.whi
   left: -46%
 
 
-.lista-ol--cuadro__vineta 
-    background-color: #4BB1A3
 .lista-ol--cuadro__vineta span 
     color: black
 
@@ -242,7 +255,8 @@ figcaption.whi
 .bg2
   background-color: #A3D8B4
   border-radius: 20px
-
+  &:hover
+    background-color: #43B869
 .bg3
   background-color: #96D5CA
   border-radius: 20px
@@ -254,16 +268,9 @@ figcaption.whi
 .fa-chevron-left:before 
     content: url('../assets/curso/temas/iz.png')
 
-.b1
-  background: url('../assets/curso/temas/fon2.png')
-  background-size: 100% 90%
-  background-repeat: no-repeat
-  background-position: cover
-  border-radius: 0px
 
-.bg4
-  background-color: #EFC6CA
-  border-radius: 15px
+
+
 .mbt
   margin-top: -20%
 
