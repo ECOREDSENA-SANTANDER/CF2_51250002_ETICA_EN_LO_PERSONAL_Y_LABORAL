@@ -21,7 +21,7 @@
       h2 1.1  Evaluar los lineamientos organizacionales para fomentar la ética laboral
 
     .etiqueta.p-2.d-flex.mb-5(data-aos="fade-left")
-      h4.mb-0.ps-5.pe-5 Razón Social y Protocolo de Servicios
+      h4.mb-0.ps-5.pe-5 En la vida personal
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-12
@@ -203,9 +203,9 @@
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
       .col-lg-9
-        p.mb-4 El desarrollo de la ética abarca diferentes dimensiones que orientan las decisiones y comportamientos tanto en la vida personal como laboral. Estas decisiones se fundamentan en reglas básicas que permiten reflexionar y abordar tanto problemas internos como externos. En este contexto, la ética actúa como un marco para gestionar situaciones complejas con base en principios sólidos.
+        p.mb-4 Las normas morales, presentes desde la infancia, han generado preocupaciones a lo largo del tiempo, ya que su existencia influye en las decisiones humanas al limitar o regular deseos y acciones. Estas reglas, reforzadas por los consejos de los adultos, buscan orientar y formar a las personas según los comportamientos aceptados dentro de una comunidad.
           .cajon.color-primario.p-4.mb-4
-            p La función de la ética se refleja en su compromiso con la comunidad y el medio ambiente, promoviendo una calidad de vida laboral adecuada y prácticas responsables en el comercio y el marketing; en el ámbito profesional, se establecen criterios generales que incluyen la comprensión del entorno individual y colectivo, la defensa de valores y conocimientos, y el reconocimiento de las limitaciones personales y profesionales. También se destaca la importancia de promover la utilidad a través de canales responsables, denunciar conductas inadecuadas y proteger a los colegas frente a injusticias.
+            p Un ejemplo claro de situaciones que invitan a la reflexión es la discriminación étnica o racial en colegios y espacios públicos, un problema que resalta la necesidad de abordar las desigualdades en la sociedad. Los desafíos socioculturales, relacionados con la migración, la interculturalidad y la convivencia, se dividen en factores internos y externos:
       .col-lg-3.col-8.col-sm-5
         img(src='@/assets/curso/temas/Tema1/img2.png', alt='Texto que describa la imagen')    
 
@@ -338,7 +338,7 @@
           br
           p Las competencias pueden definirse como el conjunto integrado de capacidades, actitudes y conocimientos adquiridos para ejecutar de manera eficaz una actividad laboral. Estas competencias representan repertorios de comportamientos que algunas personas logran dominar con mayor destreza que otras, permitiéndoles actuar con mayor eficacia en situaciones específicas.
           .bloque-texto-d__autor.mb-2
-            p - Levy-Leboyer, 1997
+            p - Levy-Leboyer, 1997.
     
     p.mb-5 En el ámbito laboral, las competencias éticas son fundamentales, ya que no solo garantizan la calidad y efectividad en las tareas, sino que también promueven la integridad, el respeto y la responsabilidad, valores esenciales para el desarrollo sostenible y la convivencia en el entorno profesional.
     
@@ -365,7 +365,7 @@
         .bloque-texto-c.color-secundario.p-4
           i.fas.fa-quote-right
           p.mb-2 La competencia implica desarrollar capacidades que trascienden la mera calificación, pues no se limita al saber hacer técnico, sino que integra habilidades sociales y personales. 
-          span - Bazdresch (1998)
+          span - Bazdresch (1998).
         
     p.mb-5 Una competencia combina destrezas prácticas con comportamientos como trabajar en equipo, asumir riesgos y demostrar iniciativa, estas no solo se adquieren en el ámbito académico, sino también a través del esfuerzo y la experiencia laboral, donde se integran conocimientos teóricos y prácticos con cualidades innatas o adquiridas, favoreciendo habilidades como la comunicación, la resolución de conflictos y las relaciones interpersonales.
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left")

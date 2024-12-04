@@ -200,7 +200,8 @@ export default {
     },
     {
       termino: 'Conducta ética',
-      significado: '',
+      significado:
+        'Acciones que reflejan valores y principios universales, respetando derechos y promoviendo equidad.',
     },
     {
       termino: 'Código de ética',
@@ -335,7 +336,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Andrea Ardila Chaparro',
+          nombre: 'Erika Fernanda Mejía Pinzón',
           cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

@@ -48,7 +48,6 @@
           .row.col-xl-11.m-auto(titulo="2. Aspectos Claves de la ética empresarial")
             .row.justify-content-center.align-items-center(data-aos="fade-right")
               .col-lg-12
-                p.mb-0 Se encarga de analizar la estructura de los datos y que se cumpla con los requisitos del negocio, modelo de negocio o problema. Las actividades a desarrollar, son:
                 ul.lista-ul--color
                   li.d-flex
                     i.fas.fa-check
@@ -322,7 +321,7 @@
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center Una persona asertiva se define como aquella que posee una personalidad activa y excitativa, capaz de defender sus derechos sin temor en su comportamiento. 
           .bloque-texto-f__autor.mb-0
-            h3.mb-0 - Fensterheim y Baer (1976)
+            h3.mb-0 - Fensterheim y Baer (1976).
 
     p.mb-3 Los autores destacan que las principales características de una persona asertiva incluyen:
     ol.lista-ol--cuadro(data-aos="zoom-in")
@@ -485,16 +484,16 @@
 
     p.mb-5 La comunicación organizacional se refiere al proceso mediante el cual las empresas fomentan relaciones cercanas con sus empleados y el entorno, fortaleciendo su cultura organizacional y alineándola con la misión, visión y objetivos empresariales. Este enfoque permite un manejo adecuado del personal y la ejecución eficiente de funciones específicas.
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
+    .row.justify-content-center.align-items-center.mb-3(data-aos="zoom-in")
       .col-lg-10
-        .bloque-texto-f.bgverde.pt-4.px-5.mb-5
+        .bloque-texto-f.bgverde.pt-4.px-5.mb-3
           .bloque-texto-f__comillas
             i.fas.fa-quote-left
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center La comunicación organizacional implica la recopilación y circulación de información relevante tanto interna como externamente. Este proceso facilita que los miembros de la organización compartan información, cooperen y se organicen para adaptarse a los cambios internos y externos, contribuyendo al logro de los objetivos comunes.
           .bloque-texto-f__autor.mb-0
-            h3.mb-0 - Kreps (1902)
-
+            h3.mb-0 - Kreps (1902).
+    p.mb-3 Funciones específicas de la comunicación organizacional.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
         SlyderF.custom.mb-5(columnas="col-lg-4 col-xl-4 col-md-5")
@@ -534,7 +533,7 @@
     p.mb-4 En una organización, es fundamental establecer un manejo adecuado de la comunicación entre la empresa y sus empleados. Esto garantiza un flujo constante de información que facilita el intercambio de ideas y mejora los procesos organizativos.
     
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left")
-      p El proceso comunicativo incluye la transmisión de señales como gestos, sonidos, palabras, códigos y otros símbolos con el propósito de transmitir un mensaje. La eficacia de la comunicación depende de que el receptor posea las competencias necesarias para descodificar el mensaje, interpretarlo y analizarlo de forma adecuada. Solo así se logra el éxito en la transmisión y recepción del contenido.
+      p Una comunicación ineficaz puede generar desconocimiento sobre las metas, objetivos, normas y estatutos de la empresa, lo que afecta negativamente el crecimiento empresarial y disminuye el compromiso tanto del personal como de la administración. Por ello, la comunicación juega un papel crucial en todos los procesos organizacionales, como se detalla en la figura que sigue.
 
     .etiqueta.p-2.d-flex.mb-4(data-aos="fade-left")
       h4.mb-0.ps-5.pe-5 El flujo de la comunicación
@@ -551,7 +550,7 @@
     .etiqueta.p-2.d-flex.mb-4(data-aos="fade-left")
       h4.mb-0.ps-5.pe-5 La buena comunicación en la organización
 
-    p.mb-4Una comunicación efectiva en la organización fomenta un ambiente laboral positivo y satisfactorio, tanto para los empleados como para la empresa, previniendo malos entendidos y problemas internos. Cuando la comunicación no fluye correctamente y no alcanza todas las áreas productivas, se genera una disminución en la eficiencia y un impacto negativo en la gestión empresarial. Involucrar a los empleados y hacerles sentir que son parte importante de la organización contribuye a mejorar su compromiso y el desempeño general.
+    p.mb-4 Una comunicación efectiva en la organización fomenta un ambiente laboral positivo y satisfactorio, tanto para los empleados como para la empresa, previniendo malos entendidos y problemas internos. Cuando la comunicación no fluye correctamente y no alcanza todas las áreas productivas, se genera una disminución en la eficiencia y un impacto negativo en la gestión empresarial. Involucrar a los empleados y hacerles sentir que son parte importante de la organización contribuye a mejorar su compromiso y el desempeño general.
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
