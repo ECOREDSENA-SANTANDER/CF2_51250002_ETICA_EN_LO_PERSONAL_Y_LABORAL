@@ -204,11 +204,6 @@ export default {
         'Acciones que reflejan valores y principios universales, respetando derechos y promoviendo equidad.',
     },
     {
-      termino: 'Código de ética',
-      significado:
-        ' Acciones que reflejan valores y principios universales, respetando derechos y promoviendo equidad.',
-    },
-    {
       termino: 'Criterios éticos',
       significado:
         ' Parámetros generales que orientan decisiones responsables en contextos personales y laborales.',

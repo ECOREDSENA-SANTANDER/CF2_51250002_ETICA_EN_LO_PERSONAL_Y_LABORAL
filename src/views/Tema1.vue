@@ -153,7 +153,7 @@
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center La ética empresarial se define como el conjunto de valores, principios y normas que rigen las organizaciones para garantizar comportamientos responsables y generar una buena reputación frente a la sociedad. Estas directrices se reflejan en las acciones de la empresa durante sus procesos productivos, contribuyendo a la confianza y credibilidad en su entorno.
           .bloque-texto-f__autor.mb-0
-            h3.mb-0 - Cortina (1994)
+            h3.mb-0 - Cortina (1994).
         
 
 
