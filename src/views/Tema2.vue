@@ -137,7 +137,7 @@
           .col-lg-2.col-3.col-sm-2
             img.mb-3(src='@/assets/curso/temas/Tema2/img4.png', alt='Texto que describa la imagen') 
           .col-lg-11
-            p #[b 3. De persuación:] orientados a influir en las ideas, decisiones o comportamientos de los receptores.
+            p #[b 3. De persuasión:] orientados a influir en las ideas, decisiones o comportamientos de los receptores.
 
       .col-lg-6
         .row
@@ -150,44 +150,12 @@
     p.mb-5 Estos propósitos son la base de los procesos comunicativos, los cuales deben seguir pasos bien definidos para lograr una comunicación efectiva y alcanzar los objetivos planteados.
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9
+      .col-lg-8
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')
           h5 Figura 6.
           span  La comunicación ética
-        SlyderF.custom.mb-5(columnas="col-lg-4 col-xl-4 col-md-5")
-          .tarjeta--boton.color-primario.p-4.tb
-            .row.justify-content-center.align-items-center.mb-5
-              .col-5
-                figure
-                  img.mb-3(src='@/assets/curso/temas/Tema2/1.png', alt='Texto que describa la imagen')
-              h5.text-center Propósito comunicativo
-              p.text-small.text-center.mb-0   - Informar
-              p.text-small.text-center.mb-0   - Entretener
-              p.text-small.text-center.mb-0   - Persuadir
-              p.text-small.text-center.mb-0   - Actuar
-          .tarjeta--boton.color-primario.p-4.tb
-            .row.justify-content-center.align-items-center.mb-2
-              .col-5
-                figure
-                  img.mb-3(src='@/assets/curso/temas/Tema2/2.png', alt='Texto que describa la imagen')
-              h5.text-center Propósito específico
-              p.text-small.text-center.mb-0   - Explicar
-              p.text-small.text-center.mb-0   - Describir
-              p.text-small.text-center.mb-0   - Definir
-              p.text-small.text-center.mb-0   - Exponer
-          .tarjeta--boton.color-primario.p-4.tb
-            .row.justify-content-center.align-items-center.mb-4
-              .col-5
-                figure
-                  img.mb-3(src='@/assets/curso/temas/Tema2/3.png', alt='Texto que describa la imagen')
-              h5.text-center Propósito específico de persuación
-              p.text-small.text-center.mb-0   - Motivar a la acción
-              p.text-small.text-center.mb-0   - Convencer o formar
-              p.text-small.text-center.mb-0   - Convencer reformar
-              p.text-small.text-center.mb-0   - Convencer cambiar
-      
-      .col-lg-3.col-6.col-sm-5
-        img.mb-3(src='@/assets/curso/temas/Tema2/img6.png', alt='Texto que describa la imagen') 
+        img.mb-3(src='@/assets/curso/temas/Tema2/figura6.svg', alt='Los propósitos de la comunicación se agrupan en tres categorías principales: el propósito comunicativo, el propósito específico y el propósito específico de persuasión. El propósito comunicativo abarca informar, entretener, persuadir y actuar, enfatizando funciones generales del proceso de comunicación. El propósito específico incluye acciones más definidas como explicar, describir, definir y exponer, enfocándose en transmitir información precisa. Finalmente, el propósito específico de persuasión busca motivar a la acción, convencer o formar opiniones, reformar actitudes y propiciar cambios, destacando su orientación hacia la influencia en los receptores. Estos propósitos estructuran la comunicación según sus objetivos fundamentales. ')
+              
 
     .etiqueta.p-2.d-flex.mb-5(data-aos="fade-left")
       h4.mb-0.ps-5.pe-5 Propiedad de la comunicación
@@ -283,7 +251,7 @@
               .col-lg-2.col-3.col-sm-2
                 img.mb-3(src='@/assets/curso/temas/Tema2/03.png', alt='Texto que describa la imagen') 
               .col-lg-12
-                p #[b 3. Evaluación] se requiere una revisión constante de los canales y medios de comunicación utilizados.
+                p #[b 3. Evaluación:] se requiere una revisión constante de los canales y medios de comunicación utilizados.
           
           .col-lg-6
             .row
