@@ -24,7 +24,7 @@
     
     .etiqueta.p-2.d-flex.mb-5(data-aos="fade-left")
       h4.mb-0.ps-5.pe-5 Entonces, ¿Qué es la comunicación?
-    p.mb-5 Etimológicamente, el término "comunicación" proviene del latín communicare, que significa "compartir algo" o "poner en común". Este concepto resalta que la comunicación es un fenómeno esencial en las relaciones humanas, especialmente dentro de grupos sociales. A través de la comunicación, las personas obtienen información de su entorno y la comparten con los demás integrantes de su comunidad.
+    p.mb-5 Etimológicamente, el término "comunicación" proviene del latín #[em communicare], que significa "compartir algo" o "poner en común". Este concepto resalta que la comunicación es un fenómeno esencial en las relaciones humanas, especialmente dentro de grupos sociales. A través de la comunicación, las personas obtienen información de su entorno y la comparten con los demás integrantes de su comunidad.
 
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left")
       p El proceso comunicativo incluye la transmisión de señales como gestos, sonidos, palabras, códigos y otros símbolos con el propósito de transmitir un mensaje. La eficacia de la comunicación depende de que el receptor posea las competencias necesarias para descodificar el mensaje, interpretarlo y analizarlo de forma adecuada. Solo así se logra el éxito en la transmisión y recepción del contenido.
@@ -168,23 +168,23 @@
         SlyderF.custom.mb-5(columnas="col-lg-4 col-xl-4 col-md-5")
           .tarjeta--boton.color-primario.p-4.tb2
             .row.justify-content-center.align-items-center.mb-5
-              p.text-small.text-center Es imposible no comunicarse
+              p.text-center Es imposible no comunicarse
           
           .tarjeta--boton.color-primario.p-4.tb2
             .row.justify-content-center.align-items-center.mb-2
-              p.text-small.text-center Toda comunicación tiene un aspecto de contenido y un aspecto relacional.
+              p.text-center Toda comunicación tiene un aspecto de contenido y un aspecto relacional.
           
           .tarjeta--boton.color-primario.p-4.tb2
             .row.justify-content-center.align-items-center.mb-2
-              p.text-small.text-center La naturaleza de una relación depende de la puntuación de las secuencias de la comunicación entre los comunicantes.
+              p.text-center La naturaleza de una relación depende de la puntuación de las secuencias de la comunicación entre los comunicantes.
 
           .tarjeta--boton.color-primario.p-4.tb2
             .row.justify-content-center.align-items-center.mb-2
-              p.text-small.text-center Toda comunicación es digital y analógica.
+              p.text-center Toda comunicación es digital y analógica.
           
           .tarjeta--boton.color-primario.p-4.tb2
             .row.justify-content-center.align-items-center.mb-2
-              p.text-small.text-center Todos los intercambios comunicacionales son simétricos o complementarios.
+              p.text-center Todos los intercambios comunicacionales son simétricos o complementarios.
     
     .etiqueta.p-2.d-flex.mb-3(data-aos="fade-left")
       h4.mb-0.ps-5.pe-5 La comunicación en el contexto psicosocial
@@ -289,7 +289,7 @@
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center Una persona asertiva se define como aquella que posee una personalidad activa y excitativa, capaz de defender sus derechos sin temor en su comportamiento. 
           .bloque-texto-f__autor.mb-0
-            h3.mb-0 - Fensterheim y Baer (1976).
+            h3.mb-0 (Fensterheim y Baer, 1976).
 
     p.mb-3 Los autores destacan que las principales características de una persona asertiva incluyen:
     ol.lista-ol--cuadro(data-aos="zoom-in")
@@ -518,7 +518,7 @@
     .etiqueta.p-2.d-flex.mb-4(data-aos="fade-left")
       h4.mb-0.ps-5.pe-5 La buena comunicación en la organización
 
-    p.mb-4 Una comunicación efectiva en la organización fomenta un ambiente laboral positivo y satisfactorio, tanto para los empleados como para la empresa, previniendo malos entendidos y problemas internos. Cuando la comunicación no fluye correctamente y no alcanza todas las áreas productivas, se genera una disminución en la eficiencia y un impacto negativo en la gestión empresarial. Involucrar a los empleados y hacerles sentir que son parte importante de la organización contribuye a mejorar su compromiso y el desempeño general.
+    p.mb-4 Una comunicación efectiva en la organización fomenta un ambiente laboral positivo y satisfactorio, tanto para los empleados como para la empresa, previniendo malentendidos y problemas internos. Cuando la comunicación no fluye correctamente y no alcanza todas las áreas productivas, se genera una disminución en la eficiencia y un impacto negativo en la gestión empresarial. Involucrar a los empleados y hacerles sentir que son parte importante de la organización contribuye a mejorar su compromiso y el desempeño general.
     .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in")
       .col-lg-6
         .titulo-sexto.color-acento-contenido(data-aos='fade-right')

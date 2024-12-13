@@ -153,7 +153,7 @@
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center La ética empresarial se define como el conjunto de valores, principios y normas que rigen las organizaciones para garantizar comportamientos responsables y generar una buena reputación frente a la sociedad. Estas directrices se reflejan en las acciones de la empresa durante sus procesos productivos, contribuyendo a la confianza y credibilidad en su entorno.
           .bloque-texto-f__autor.mb-0
-            h3.mb-0 - Cortina (1994).
+            h3.mb-0 (Cortina, 1994).
         
 
 
@@ -168,7 +168,7 @@
         .row.align-items-center.justify-content-center(titulo="1970").p-4
           .col-md-6.mb-4.mb-md-0
             h4.mb-5 Década de 1970
-            p Surge el concepto de business ethics (ética empresarial) en los Estados Unidos como respuesta a la crisis de confianza generada por el caso Watergate y otros escándalos relacionados con la corrupción política y empresarial. Este contexto llevó a una mayor preocupación por la transparencia y la responsabilidad corporativa, sentando las bases para un enfoque más ético en los negocios.
+            p Surge el concepto de #[em business ethics] (ética empresarial) en los Estados Unidos como respuesta a la crisis de confianza generada por el caso Watergate y otros escándalos relacionados con la corrupción política y empresarial. Este contexto llevó a una mayor preocupación por la transparencia y la responsabilidad corporativa, sentando las bases para un enfoque más ético en los negocios.
           .col-md-5
             figure
               img(src='@/assets/curso/temas/Tema1/fon1.png', alt='Texto que describa la imagen')
@@ -331,6 +331,7 @@
     separador
     #t_1_6.titulo-segundo.mb-5
       h2 1.6  Competencias éticas en lo laboral y su desarrollo
+    
 
     .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
       .col-lg-12
@@ -338,7 +339,7 @@
           br
           p Las competencias pueden definirse como el conjunto integrado de capacidades, actitudes y conocimientos adquiridos para ejecutar de manera eficaz una actividad laboral. Estas competencias representan repertorios de comportamientos que algunas personas logran dominar con mayor destreza que otras, permitiéndoles actuar con mayor eficacia en situaciones específicas.
           .bloque-texto-d__autor.mb-2
-            p - Levy-Leboyer, 1997.
+            p (Levy-Leboyer, 1997).
     
     p.mb-5 En el ámbito laboral, las competencias éticas son fundamentales, ya que no solo garantizan la calidad y efectividad en las tareas, sino que también promueven la integridad, el respeto y la responsabilidad, valores esenciales para el desarrollo sostenible y la convivencia en el entorno profesional.
     
@@ -359,13 +360,17 @@
       .tarjeta.color-primario.p-3(x="83%" y="50%" numero="3")
         h5.mb-2 Actitudes
         p Características o rasgos de la personalidad de un sujeto que determinan su correcta actuación.
-
+    
+    
     .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-7
-        .bloque-texto-c.color-secundario.p-4
-          i.fas.fa-quote-right
-          p.mb-2 La competencia implica desarrollar capacidades que trascienden la mera calificación, pues no se limita al saber hacer técnico, sino que integra habilidades sociales y personales. 
-          span - Bazdresch (1998).
+      .col-lg-8
+        .bloque-texto-f.color-primario.pt-4.px-5.mb-5
+          .bloque-texto-f__comillas
+            i.fas.fa-quote-left
+            i.fas.fa-quote-right
+          h4.text-regular.bloque-texto-f__texto.p-4 La competencia implica desarrollar capacidades que trascienden la mera calificación, pues no se limita al saber hacer técnico, sino que integra habilidades sociales y personales. 
+          .bloque-texto-f__autor.mb-0
+            h3.mb-2 (Bazdresch, 1998).
         
     p.mb-5 Una competencia combina destrezas prácticas con comportamientos como trabajar en equipo, asumir riesgos y demostrar iniciativa, estas no solo se adquieren en el ámbito académico, sino también a través del esfuerzo y la experiencia laboral, donde se integran conocimientos teóricos y prácticos con cualidades innatas o adquiridas, favoreciendo habilidades como la comunicación, la resolución de conflictos y las relaciones interpersonales.
     .cajon.color-primario.p-4.mb-4(data-aos="fade-left")

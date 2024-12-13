@@ -142,7 +142,7 @@ export default {
       tema: '2.2. La asertividad',
       referencia:
         'Loarte, V. D. M. (2024, 21 marzo). ¿Qué es la comunicación asertiva y por qué es importante? Grupo XXI - Psicología Aplicada. ',
-      tipo: 'Articulo',
+      tipo: 'Artículo',
       link:
         'https://www.grupoxxi-psicologia.net/que-es-la-comunicacion-asertiva-y-por-que-es-importante/',
     },
@@ -242,27 +242,27 @@ export default {
     },
     {
       referencia:
-        'Lasswell, H. D. (1985). Estructura y función de la comunicación en la sociedad. Sociología de la Comunicación de masas. II Estructura, funciones y efectos. Barcelona. Gustavo Gili, 50-68.',
+        'Lasswell, H. D. (1985). Estructura y función de la comunicación en la sociedad. Sociología de la Comunicación de masas. II Estructura, funciones y efectos. Barcelona. Gustavo Gili, 50-68. ',
       link: '',
     },
     {
       referencia:
-        'Salazar Estrada, J. G., Guerrero Pupo, J. C., Machado Rodríguez, Y. B., & Cañedo Andalia, R. (2009). Clima y cultura organizacional: dos componentes esenciales en la productividad laboral. Acimed, 20(4), 67-75.',
+        'Salazar Estrada, J. G., Guerrero Pupo, J. C., Machado Rodríguez, Y. B., & Cañedo Andalia, R. (2009). Clima y cultura organizacional: dos componentes esenciales en la productividad laboral. Acimed, 20(4), 67-75 ',
       link: '',
     },
     {
       referencia:
-        'Moreno Uribe, P. H. (2010). Importancia de los valores para el ejercicio ético de la profesión.',
+        'Moreno Uribe, P. H. (2010). Importancia de los valores para el ejercicio ético de la profesión. ',
       link: '',
     },
     {
       referencia:
-        'Federación Internacional de Trabajadores Sociales, Octubre 1994: Principios y criterios de la ética profesional.',
+        'Federación Internacional de Trabajadores Sociales. (1994). Principios y criterios de la ética profesional. ',
       link: '',
     },
     {
       referencia:
-        'Gilberto Rodríguez García: “¿Qué son las competencias laborales?” en Contribuciones a la Economía, enero 2007.',
+        'Gilberto Rodríguez García. (2007). ¿Qué son las competencias laborales? en Contribuciones a la Economía.',
       link: '',
     },
   ],

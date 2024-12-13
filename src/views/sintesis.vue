@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="El diagrama presenta las cuatro prendas que se trabajaron en el componente y los diferentes procesos que se deben llevar a cabo para su confección: falda, blusa, camisa y pantalón.")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La figura organiza los principales conceptos de la ética en cuatro secciones clave: la relevancia de la ética en la vida personal y laboral, sus ámbitos de aplicación, el desarrollo histórico de la ética empresarial y los criterios generales que guían la ética profesional. Cada sección detalla cómo estas áreas contribuyen al éxito, a través de la promoción de valores como la confianza, la sostenibilidad, el bienestar colectivo y la responsabilidad social.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
