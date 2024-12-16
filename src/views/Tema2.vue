@@ -460,7 +460,7 @@
             i.fas.fa-quote-right
           h4.text-regular.bloque-texto-f__texto.text-center La comunicación organizacional implica la recopilación y circulación de información relevante tanto interna como externamente. Este proceso facilita que los miembros de la organización compartan información, cooperen y se organicen para adaptarse a los cambios internos y externos, contribuyendo al logro de los objetivos comunes.
           .bloque-texto-f__autor.mb-0
-            h3.mb-0 - Kreps (1902).
+            h3.mb-0 (Kreps, 1986).
     p.mb-3 Funciones específicas de la comunicación organizacional.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
